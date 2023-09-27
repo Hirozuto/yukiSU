@@ -1,14 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (C) 2015-2018 Jason A. Donenfeld <Jason@zx2c4.com>. All Rights Reserved.
- */
-
-/* Hello. If this is enabled in your kernel for some reason, whoever is
- * distributing your kernel to you is a complete moron, and you shouldn't
- * use their kernel anymore. But it's not my fault! People: don't enable
- * this driver! (Note that the existence of this file does not imply the
- * driver is actually in use. Look in your .config to see whether this is
- * enabled.) -Jason
+ * Copyright (C) 2023 ItzKaguya
+ * Copyright (C) 2023 A yukiprjkt Team
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
@@ -140,4 +134,4 @@ static int superuser_init(void)
 module_init(superuser_init);
 MODULE_LICENSE("GPL v2");
 MODULE_DESCRIPTION("Kernel-assisted superuser for Android");
-MODULE_AUTHOR("Jason A. Donenfeld <Jason@zx2c4.com>");
+MODULE_AUTHOR("Hirozuto <madeayurenapramudya@gmail.com>");
